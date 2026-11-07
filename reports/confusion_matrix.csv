@@ -1,0 +1,6 @@
+,Benign,Exfiltration,Initial access,Lateral movement,Reconnaissance
+Benign,2037,0,314,2,103
+Exfiltration,103,2835,403,1834,7
+Initial access,1462,1361,15889,97,1576
+Lateral movement,84,37,104,2251,24
+Reconnaissance,1174,4075,2015,3584,69461

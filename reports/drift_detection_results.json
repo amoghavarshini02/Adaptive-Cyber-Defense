@@ -1,0 +1,15 @@
+{
+    "detector": "ADWIN",
+    "delta": 0.002,
+    "batch_size": 5000,
+    "records_monitored": 110907,
+    "drift_events_detected": 1,
+    "events": [
+        {
+            "record_number": 20768,
+            "batch_number": 5,
+            "estimated_error_rate": 0.1317778310940499,
+            "detector_width": 16672
+        }
+    ]
+}

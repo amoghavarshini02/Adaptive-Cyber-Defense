@@ -1,0 +1,201 @@
+{
+    "experiment": "Prequential test-then-train evaluation",
+    "batch_size": 5000,
+    "total_stream_records": 110832,
+    "baseline": {
+        "accuracy": 0.8343528944709109,
+        "balanced_accuracy": 0.7842501743817689,
+        "macro_f1": 0.6290498597072491
+    },
+    "prequential": {
+        "accuracy": 0.8764706943842934,
+        "balanced_accuracy": 0.6922793593223366,
+        "macro_f1": 0.6892655779457847
+    },
+    "batch_results": [
+        {
+            "batch": 1,
+            "records_processed": 5000,
+            "batch_size": 5000,
+            "accuracy": 0.8356,
+            "balanced_accuracy": 0.782397522016007,
+            "macro_f1": 0.6223583228807075
+        },
+        {
+            "batch": 2,
+            "records_processed": 10000,
+            "batch_size": 5000,
+            "accuracy": 0.868,
+            "balanced_accuracy": 0.7192796569929072,
+            "macro_f1": 0.6855519132791685
+        },
+        {
+            "batch": 3,
+            "records_processed": 15000,
+            "batch_size": 5000,
+            "accuracy": 0.879,
+            "balanced_accuracy": 0.6993020549722715,
+            "macro_f1": 0.6943883479137509
+        },
+        {
+            "batch": 4,
+            "records_processed": 20000,
+            "batch_size": 5000,
+            "accuracy": 0.8804,
+            "balanced_accuracy": 0.7303808324802077,
+            "macro_f1": 0.7226062284644129
+        },
+        {
+            "batch": 5,
+            "records_processed": 25000,
+            "batch_size": 5000,
+            "accuracy": 0.8802,
+            "balanced_accuracy": 0.707397496254007,
+            "macro_f1": 0.6872437080897419
+        },
+        {
+            "batch": 6,
+            "records_processed": 30000,
+            "batch_size": 5000,
+            "accuracy": 0.8754,
+            "balanced_accuracy": 0.6682418874967821,
+            "macro_f1": 0.6786500791036634
+        },
+        {
+            "batch": 7,
+            "records_processed": 35000,
+            "batch_size": 5000,
+            "accuracy": 0.8758,
+            "balanced_accuracy": 0.6952358526396294,
+            "macro_f1": 0.6800711677506672
+        },
+        {
+            "batch": 8,
+            "records_processed": 40000,
+            "batch_size": 5000,
+            "accuracy": 0.8792,
+            "balanced_accuracy": 0.6553347001057198,
+            "macro_f1": 0.664723727699159
+        },
+        {
+            "batch": 9,
+            "records_processed": 45000,
+            "batch_size": 5000,
+            "accuracy": 0.8868,
+            "balanced_accuracy": 0.6720848325639541,
+            "macro_f1": 0.681842851215162
+        },
+        {
+            "batch": 10,
+            "records_processed": 50000,
+            "batch_size": 5000,
+            "accuracy": 0.8714,
+            "balanced_accuracy": 0.6416397300978047,
+            "macro_f1": 0.6649327163266694
+        },
+        {
+            "batch": 11,
+            "records_processed": 55000,
+            "batch_size": 5000,
+            "accuracy": 0.887,
+            "balanced_accuracy": 0.7003454595853132,
+            "macro_f1": 0.7084036077368863
+        },
+        {
+            "batch": 12,
+            "records_processed": 60000,
+            "batch_size": 5000,
+            "accuracy": 0.8776,
+            "balanced_accuracy": 0.6892336947539628,
+            "macro_f1": 0.69604247968967
+        },
+        {
+            "batch": 13,
+            "records_processed": 65000,
+            "batch_size": 5000,
+            "accuracy": 0.8664,
+            "balanced_accuracy": 0.6564152944790131,
+            "macro_f1": 0.681077829782083
+        },
+        {
+            "batch": 14,
+            "records_processed": 70000,
+            "batch_size": 5000,
+            "accuracy": 0.8782,
+            "balanced_accuracy": 0.7041936932937098,
+            "macro_f1": 0.7103880115497238
+        },
+        {
+            "batch": 15,
+            "records_processed": 75000,
+            "batch_size": 5000,
+            "accuracy": 0.8816,
+            "balanced_accuracy": 0.7073433954508077,
+            "macro_f1": 0.7197529345965005
+        },
+        {
+            "batch": 16,
+            "records_processed": 80000,
+            "batch_size": 5000,
+            "accuracy": 0.8796,
+            "balanced_accuracy": 0.709736206096409,
+            "macro_f1": 0.6966524870399327
+        },
+        {
+            "batch": 17,
+            "records_processed": 85000,
+            "batch_size": 5000,
+            "accuracy": 0.8782,
+            "balanced_accuracy": 0.6722333491270003,
+            "macro_f1": 0.6828334122643799
+        },
+        {
+            "batch": 18,
+            "records_processed": 90000,
+            "batch_size": 5000,
+            "accuracy": 0.8852,
+            "balanced_accuracy": 0.6860717615768721,
+            "macro_f1": 0.6973778845548341
+        },
+        {
+            "batch": 19,
+            "records_processed": 95000,
+            "batch_size": 5000,
+            "accuracy": 0.8806,
+            "balanced_accuracy": 0.7051765484958012,
+            "macro_f1": 0.7083988149169003
+        },
+        {
+            "batch": 20,
+            "records_processed": 100000,
+            "batch_size": 5000,
+            "accuracy": 0.8744,
+            "balanced_accuracy": 0.6796534270372167,
+            "macro_f1": 0.7008492940397322
+        },
+        {
+            "batch": 21,
+            "records_processed": 105000,
+            "batch_size": 5000,
+            "accuracy": 0.8778,
+            "balanced_accuracy": 0.6621453475174388,
+            "macro_f1": 0.6882701749821487
+        },
+        {
+            "batch": 22,
+            "records_processed": 110000,
+            "batch_size": 5000,
+            "accuracy": 0.8842,
+            "balanced_accuracy": 0.7125494500238881,
+            "macro_f1": 0.7079851806303121
+        },
+        {
+            "batch": 23,
+            "records_processed": 110832,
+            "batch_size": 832,
+            "accuracy": 0.875,
+            "balanced_accuracy": 0.6373345838548822,
+            "macro_f1": 0.6723774516552601
+        }
+    ]
+}
